@@ -13,7 +13,6 @@ AI student and open-source builder. I enjoy turning ideas into working tools—e
   - Tech: Vue.js frontend, FastAPI backend, WebSockets for real-time progress, LLM APIs
 
 - [SeAgent](https://github.com/nullskymc/SeAgent) — Exploration of agent patterns and search-enabled automation
-- 
 
 ## Tech I use
 
@@ -41,10 +40,6 @@ AI student and open-source builder. I enjoy turning ideas into working tools—e
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nullskymc&layout=compact)
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nullskymc&show_icons=true&theme=default)
-
-[![](https://raw.githubusercontent.com/nullskymc/profile-card/master/profile-summary-card-output/ayu_mirage/0-profile-details.svg)](https://github.com/nullskymc)
-[![](https://raw.githubusercontent.com/nullskymc/profile-card/master/profile-summary-card-output/ayu_mirage/4-productive-time.svg)](https://github.com/nullskymc)
-  
 ---
 
 If you find my work useful, consider starring the repos—it helps others discover them. Thanks for visiting!
