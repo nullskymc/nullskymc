@@ -6,6 +6,15 @@ AI student and open-source builder. I enjoy turning ideas into working tools—e
 - 🌱 Exploring LLM application patterns, prompt engineering, evaluations, and tool-use orchestration
 - 💡 I like projects that make complex workflows simple and usable
 
+## Stats
+
+![GitHub followers](https://img.shields.io/github/followers/nullskymc?style=flat)
+![Profile views](https://komarev.com/ghpvc/?username=nullskymc&color=blue)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nullskymc&layout=compact)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=nullskymc&show_icons=true&theme=default)
+---
+
 ## Featured Projects
 
 - [tavernTranslator](https://github.com/nullskymc/tavernTranslator) — SillyTavern character card translation tool (PNG → extracted text → LLM translation → regenerated card)
@@ -32,14 +41,5 @@ AI student and open-source builder. I enjoy turning ideas into working tools—e
 - Issues and pull requests are welcome across all projects
 - If you try Tavern Translator and have feedback, please open an issue!
 - I’m open to collaborating on practical LLM tools and agentic workflows
-
-## Stats
-
-![GitHub followers](https://img.shields.io/github/followers/nullskymc?style=flat)
-![Profile views](https://komarev.com/ghpvc/?username=nullskymc&color=blue)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nullskymc&layout=compact)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nullskymc&show_icons=true&theme=default)
----
 
 If you find my work useful, consider starring the repos—it helps others discover them. Thanks for visiting!
