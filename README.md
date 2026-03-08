@@ -11,8 +11,8 @@ AI student and open-source builder. I enjoy turning ideas into working tools—e
 ![GitHub followers](https://img.shields.io/github/followers/nullskymc?style=flat)
 ![Profile views](https://komarev.com/ghpvc/?username=nullskymc&color=blue)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nullskymc&layout=compact)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nullskymc&show_icons=true&theme=default)
+![Stats](./profile/stats.svg)
+![Languages](./profile/top-langs.svg)
 ---
 
 ## Featured Projects
