@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/MartinS-M/MartinS-M/main/assets/waving-hand.gif" width="45" /> Hello! I'm **nullskymc**
+# <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" width="40" /> Hello! I'm **nullskymc**
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Master+of+Engineering+Candidate+in+AI;Open-source+Builder+%26+Agent+Architect;Building+LLM+Workflows+%26+Tools;Python+%7C+C%2B%2B+%7C+Vue+%7C+FastAPI" alt="Typing SVG" />
 
