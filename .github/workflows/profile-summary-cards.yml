@@ -1,17 +1,44 @@
-- name: Generate GitHub Stats SVG
+name: Generate GitHub Readme Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天北京时间早8点更新
+  workflow_dispatch: # 支持手动点击运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 生成综合统计卡片
+      - name: Generate GitHub Stats SVG
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark
           path: profile/stats.svg
-          # 👇 在这里直接调用你以前存好的 Token
-          token: ${{ secrets.SUMMARY_CARD_TOKEN }} 
+          token: ${{ secrets.SUMMARY_CARD_TOKEN }}
           
+      # 生成语言比例卡片
       - name: Generate Top Languages SVG
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&layout=compact
           path: profile/top-langs.svg
-          # 👇 同样在这里复用
           token: ${{ secrets.SUMMARY_CARD_TOKEN }}
+
+      # 提交图片到仓库
+      - name: Commit and push generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p profile # 确保文件夹存在
+          git add profile/*.svg
+          git commit -m "chore: update readme stats" || exit 0
+          git push
