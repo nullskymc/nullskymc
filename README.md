@@ -1,10 +1,20 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20Gestures/Waving%20Hand.png" alt="Waving Hand" width="40" /> Hi, I'm @nullskymc
+<div align="center">
 
-<p align="left">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=AI+Graduate+Student;Open-source+Builder;Building+Agentic+Tools+with+LLMs;Full-stack+Developer+(Python+%2F+Vue)" alt="Typing SVG" />
+# <img src="https://raw.githubusercontent.com/MartinS-M/MartinS-M/main/assets/waving-hand.gif" width="45" /> Hello! I'm **nullskymc**
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Master+of+Engineering+Candidate+in+AI;Open-source+Builder+%26+Agent+Architect;Building+LLM+Workflows+%26+Tools;Python+%7C+C%2B%2B+%7C+Vue+%7C+FastAPI" alt="Typing SVG" />
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents-36BCF7?style=flat-square&logo=openai" />
+  <a href="mailto:i@mail.nullskymc.site">
+    <img src="https://img.shields.io/badge/Contact-Email%20Me-36BCF7?style=flat-square&logo=gmail" />
   </a>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Collab-green?style=flat-square" />
 </p>
+
+</div>
+
+---
 
 > I enjoy turning ideas into working tools—especially around LLMs, agents, and practical developer utilities.
 
@@ -58,5 +68,6 @@
 - Open to collaborating on practical LLM tools and agentic workflows.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Glowing%20Star.png" alt="Star" width="25" /> 
-  <i>If you find my work useful, consider starring the repos—it helps others discover them!</i>
+  <img src="https://raw.githubusercontent.com/MartinS-M/MartinS-M/main/assets/rocket.gif" alt="Rocket" width="25" /> 
+  <i>If you find my work useful, consider starring the repos — it helps others discover them! 🚀</i>
+</p>
