@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  issues: read
-  pull-requests: read
 
 jobs:
   build:
@@ -24,7 +22,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SUMMARY_CARD_TOKEN }}
 
       - name: Generate Top Languages SVG
         uses: readme-tools/github-readme-stats-action@v1
@@ -32,7 +30,15 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&layout=compact
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SUMMARY_CARD_TOKEN }}
+
+      - name: Validate generated SVGs
+        run: |
+          if grep -qiE "Something went wrong|Resource not accessible" profile/*.svg; then
+            echo "::error::GitHub statistics generation failed"
+            grep -iE "Something went wrong|Resource not accessible" profile/*.svg || true
+            exit 1
+          fi
 
       - name: Commit and push generated SVGs
         run: |
