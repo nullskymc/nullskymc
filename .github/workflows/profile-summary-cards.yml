@@ -17,28 +17,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate GitHub Stats SVG
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark
           path: profile/stats.svg
           token: ${{ secrets.SUMMARY_CARD_TOKEN }}
+          fail_on_error: true
 
       - name: Generate Top Languages SVG
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&layout=compact
           path: profile/top-langs.svg
           token: ${{ secrets.SUMMARY_CARD_TOKEN }}
-
-      - name: Validate generated SVGs
-        run: |
-          if grep -qiE "Something went wrong|Resource not accessible" profile/*.svg; then
-            echo "::error::GitHub statistics generation failed"
-            grep -iE "Something went wrong|Resource not accessible" profile/*.svg || true
-            exit 1
-          fi
+          fail_on_error: true
 
       - name: Commit and push generated SVGs
         run: |
